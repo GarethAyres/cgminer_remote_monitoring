@@ -17,22 +17,30 @@ BTC : 1EA8UrpifP9hi7LZHjJphCJQ6Hh45mb5pP
 // To get your remote IP go to http://www.whatismyip.com/
 // Uncomment (remove //) if you want to add more miners.
 $r[0]['name'] = 'MINER1';
-$r[0]['ip'] = 'YOUR_RIG_REMOTE_IP'; 
+$ip = gethostbyname('miner1.exmaple.com');
+if (!ip2long($ip)) echo "Error looking up hostname1";
+$r[0]['ip'] = $ip; 
 $r[0]['port'] = '4001';
 $r[0]['alert'] = TRUE; //set FALSE if you don't want to send alerts for this rig
 
 //$r[1]['name'] = 'MINER2';
-//$r[1]['ip'] = 'YOUR_RIG_REMOTE_IP';
+//$ip = gethostbyname('miner1.example.com');
+//if (!ip2long($ip)) echo "Error looking up hostname2";
+//$r[1]['ip'] = $ip; 
 //$r[1]['port'] = '4002';
 //$r[1]['alert'] = TRUE; //set FALSE if you don't want to send alerts for this rig
 
 //$r[2]['name'] = 'MINER3';
-//$r[2]['ip'] = 'YOUR_RIG_REMOTE_IP';
+//$ip = gethostbyname('miner2.example.com');
+//if (!ip2long($ip)) echo "Error looking up hostname3";
+//$r[2]['ip'] = $ip; 
 //$r[2]['port'] = '4003';
 //$r[2]['alert'] = TRUE; //set FALSE if you don't want to send alerts for this rig
 
 //$r[3]['name'] = 'MINER3';
-//$r[3]['ip'] = 'YOUR_RIG_REMOTE_IP';
+//$ip = gethostbyname('miner3.example.com');
+//if (!ip2long($ip)) echo "Error looking up hostname4";
+//$r[3]['ip'] = $ip; 
 //$r[3]['port'] = '4004';
 //$r[3]['alert'] = TRUE; //set FALSE if you don't want to send alerts for this rig
 
