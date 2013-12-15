@@ -24,21 +24,21 @@ $r[0]['port'] = '4001';
 $r[0]['alert'] = TRUE; //set FALSE if you don't want to send alerts for this rig
 
 //$r[1]['name'] = 'MINER2';
-//$ip = gethostbyname('miner1.example.com');
+//$ip = gethostbyname('miner2.example.com');
 //if (!ip2long($ip)) echo "Error looking up hostname2";
 //$r[1]['ip'] = $ip; 
 //$r[1]['port'] = '4002';
 //$r[1]['alert'] = TRUE; //set FALSE if you don't want to send alerts for this rig
 
 //$r[2]['name'] = 'MINER3';
-//$ip = gethostbyname('miner2.example.com');
+//$ip = gethostbyname('miner3.example.com');
 //if (!ip2long($ip)) echo "Error looking up hostname3";
 //$r[2]['ip'] = $ip; 
 //$r[2]['port'] = '4003';
 //$r[2]['alert'] = TRUE; //set FALSE if you don't want to send alerts for this rig
 
-//$r[3]['name'] = 'MINER3';
-//$ip = gethostbyname('miner3.example.com');
+//$r[3]['name'] = 'MINER4';
+//$ip = gethostbyname('miner4.example.com');
 //if (!ip2long($ip)) echo "Error looking up hostname4";
 //$r[3]['ip'] = $ip; 
 //$r[3]['port'] = '4004';
